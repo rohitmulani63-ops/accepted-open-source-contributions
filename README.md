@@ -4,6 +4,21 @@ A public record of accepted open-source contributions and the practical problems
 
 This log focuses on merged or completed work, not unconfirmed bounty payouts.
 
+## Snapshot
+
+| Metric | Count |
+| --- | --- |
+| Accepted or merged PRs | 5 |
+| Repositories helped | 5 |
+| Submitted PRs under review | 1 |
+| Primary contribution types | Docs, runbooks, setup guidance, error catalogs, tests |
+
+## How to Read This Log
+
+- `Accepted Contributions` means the work was merged or the linked issue was completed.
+- `Submitted Work Under Review` means the work is public but not accepted yet.
+- Bounty or reward payment is not claimed here unless a project confirms it.
+
 ## Accepted Contributions
 
 | Date confirmed | Project | Issue | Pull request | What changed | Why it mattered |
@@ -19,6 +34,16 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 | Project | Issue | Pull request | Focus |
 | --- | --- | --- | --- |
 | TypeORM | [#12578](https://github.com/typeorm/typeorm/issues/12578) | [#12596](https://github.com/typeorm/typeorm/pull/12596) | Default invalid `where` behavior and write-safety coverage |
+
+## Contribution Categories
+
+| Category | Examples |
+| --- | --- |
+| Release clarity | Deployment and upgrade runbooks |
+| Contributor onboarding | Environment examples and proxy setup docs |
+| Reliability contracts | Health-check schemas and status codes |
+| Integrator support | Error-code catalogs with remediation paths |
+| Safety testing | Log redaction coverage for sensitive data |
 
 ## Contribution Principles
 
