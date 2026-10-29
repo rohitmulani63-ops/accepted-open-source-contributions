@@ -8,10 +8,10 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 
 | Metric | Count |
 | --- | --- |
-| Accepted or merged PRs | 5 |
-| Repositories helped | 5 |
+| Accepted or merged PRs | 6 |
+| Repositories helped | 6 |
 | Submitted PRs under review | 1 |
-| Primary contribution types | Docs, runbooks, setup guidance, error catalogs, tests |
+| Primary contribution types | Docs, runbooks, setup guidance, error catalogs, tests, right-to-left (RTL) fixes |
 
 ## How to Read This Log
 
@@ -28,6 +28,7 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 | 2026-06-19 | Remitwise Contracts | [#779](https://github.com/Remitwise-Org/Remitwise-Contracts/issues/779) | [#785](https://github.com/Remitwise-Org/Remitwise-Contracts/pull/785) | Documented dependency health-check output schema and status codes | Made reporting contract behavior clearer in normal and degraded states |
 | 2026-06-19 | QuickLendX Protocol | [#1308](https://github.com/QuickLendX/quicklendx-protocol/issues/1308) | [#1373](https://github.com/QuickLendX/quicklendx-protocol/pull/1373) | Added a full QuickLendX error-code catalog | Helped integrators understand each error variant, cause, and remediation path |
 | 2026-06-19 | Remitwise Frontend | [#523](https://github.com/Remitwise-Org/Remitwise-Frontend/issues/523) | [#542](https://github.com/Remitwise-Org/Remitwise-Frontend/pull/542) | Added log-sanitization redaction test coverage | Helped protect against PII leaking into logs |
+| 2026-10-29 | Slint | [#14434](https://github.com/slint-ui/slint/issues/14434) | [#14595](https://github.com/slint-ui/slint/pull/14595) | Right-to-left lines with `overflow: elide` are now cut on the left, with the "…" on the correct side | Arabic, Hebrew and Persian text in Slint apps no longer spills out of its box |
 
 ## Submitted Work Under Review
 
