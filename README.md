@@ -10,7 +10,7 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 | --- | --- |
 | Accepted or merged PRs | 9 |
 | Repositories helped | 8 |
-| Submitted PRs under review | 1 |
+| Submitted PRs under review | 6 |
 | Primary contribution types | Docs, runbooks, setup guidance, error catalogs, tests, right-to-left (RTL) fixes |
 
 ## How to Read This Log
@@ -37,7 +37,14 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 
 | Project | Issue | Pull request | Focus |
 | --- | --- | --- | --- |
-| TypeORM | [#12578](https://github.com/typeorm/typeorm/issues/12578) | [#12596](https://github.com/typeorm/typeorm/pull/12596) | Default invalid `where` behavior and write-safety coverage |
+| Turso | [#11266](https://github.com/tursodatabase/turso/issues/11266) | [#11313](https://github.com/tursodatabase/turso/pull/11313) | Python bindings: add the DB-API `Binary` constructor |
+| pyenv | [#1648](https://github.com/pyenv/pyenv/issues/1648) | [#3620](https://github.com/pyenv/pyenv/pull/3620) | python-build: an option to stop the fallback when a mirror download fails |
+| Wagtail guide | [#511](https://github.com/wagtail/guide/issues/511) | [#529](https://github.com/wagtail/guide/pull/529) | Skip translations without a URL in the language selector |
+| axe-core | [#5507](https://github.com/dequelabs/axe-core/issues/5507) | [#5508](https://github.com/dequelabs/axe-core/pull/5508) | Color contrast: text in joining scripts (such as Arabic) is no longer treated as an icon ligature |
+| Grommet | [#8218](https://github.com/grommet/grommet/issues/8218) | [#8219](https://github.com/grommet/grommet/pull/8219) | TextInput: inline actions follow `dir="rtl"` |
+| Django Debug Toolbar | [#2412](https://github.com/django-commons/django-debug-toolbar/issues/2412) (first step) | [#2519](https://github.com/django-commons/django-debug-toolbar/pull/2519) | Logical CSS properties in the toolbar, plus an RTL lint check |
+
+Older open PRs from June 2026 with no maintainer response are not listed here.
 
 ## Contribution Categories
 
