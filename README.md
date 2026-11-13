@@ -8,8 +8,8 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 
 | Metric | Count |
 | --- | --- |
-| Accepted or merged PRs | 9 |
-| Repositories helped | 8 |
+| Accepted or merged PRs | 10 |
+| Repositories helped | 9 |
 | Submitted PRs under review | 6 |
 | Primary contribution types | Docs, runbooks, setup guidance, error catalogs, tests, right-to-left (RTL) fixes |
 
@@ -32,6 +32,7 @@ This log focuses on merged or completed work, not unconfirmed bounty payouts.
 | 2026-11-04 | Mozilla Pontoon | [#4632](https://github.com/mozilla/pontoon/issues/4632) | [#4643](https://github.com/mozilla/pontoon/pull/4643) | Custom profile usernames that match another user's generated username (in any letter case) are now rejected, with tests | A new custom username can no longer take over another contributor's profile link |
 | 2026-11-06 | Microsoft Fluent UI Blazor | [#5541](https://github.com/microsoft/fluentui-blazor/issues/5541) | [#5582](https://github.com/microsoft/fluentui-blazor/pull/5582) | Clickable calendar year cells now have the button role, with an updated test and snapshots | Screen readers will announce the year cells as buttons instead of "group" (merged into dev for the next release) |
 | 2026-11-11 | Slint | [#14856](https://github.com/slint-ui/slint/issues/14856) | [#14874](https://github.com/slint-ui/slint/pull/14874) | The compiler now processes each popup only once, with a syntax test and a click test | A component that inherits `PopupWindow` (such as a date picker popup) can now be used inside `if` or `for` instead of failing to compile |
+| 2026-11-13 | pyenv | [#3153](https://github.com/pyenv/pyenv/issues/3153) | [#3634](https://github.com/pyenv/pyenv/pull/3634) | Added `pyenv versions -k` / `--known` as an alias to `pyenv install --list`, with tests and docs | Users can see which Python versions are available to install from the `versions` command they already know (a feature request from 2024) |
 
 ## Submitted Work Under Review
 
